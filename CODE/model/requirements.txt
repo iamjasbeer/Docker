@@ -1,0 +1,11 @@
+pip install pandas
+pip install numpy
+pip install scikit-learn
+pip install tensorflow
+pip install seaborn
+pip install matplotlib
+pip install pickle
+pip install IPython
+pip install librosa
+
+python 3.6
