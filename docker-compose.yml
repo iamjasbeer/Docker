@@ -11,5 +11,3 @@ services:
       - .:/app                # sync project files
       - ./model:/app/model   # model persistence
       - ./data:/app/data     # dataset storage
-
-    restart: always
