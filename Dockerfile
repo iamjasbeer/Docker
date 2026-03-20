@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y \
 #copy files
 COPY . .
 
-RUN pip install -r requirement.txt
+RUN pip install -r CODE/requirements.txt
 
 EXPOSE 5000
 #RUN app
-CMD [ "python", "app.py" ]
+CMD [ "python", "CODE/app.py" ]
