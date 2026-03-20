@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  music-app:
+    build: .
+    container_name: music_genre_app
+    ports:
+      - "5000:5000"
+
+    volumes:
+      - .:/app                # sync project files
+      - ./model:/app/model   # model persistence
+      - ./data:/app/data     # dataset storage
+
+    restart: always
