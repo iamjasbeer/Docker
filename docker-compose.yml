@@ -5,7 +5,7 @@ services:
     build: .
     container_name: music_genre_app
     ports:
-      - 5000:3600
+      - 5000:5000
 
     volumes:
       - .:/app                # sync project files
