@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 #copy files
 COPY . .
-
+#RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install -r CODE/requirements.txt
 
 EXPOSE 5000

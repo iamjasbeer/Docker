@@ -1,11 +1,11 @@
-
+# Use an official Python runtime as a parent image
 services:
   music-app:
     build: .
     container_name: music_genre_app
     ports:
       - 5000:5000
-
+#Volumes for syncing project files, model persistence, and dataset storage
     volumes:
       - .:/app                # sync project files
       - ./model:/app/model   # model persistence
