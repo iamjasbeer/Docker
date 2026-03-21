@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from PIL import Image
 import os
+from pathlib import Path
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from pydub import AudioSegment
 from tensorflow.keras.layers import Input, Add, Dense, Activation, ZeroPadding2D, BatchNormalization, Flatten, Conv2D, AveragePooling2D, MaxPooling2D, GlobalMaxPooling2D,Dropout
@@ -89,7 +90,8 @@ def GenreModel(input_shape = (288,432,4),classes=9):
     return model
 
 model = GenreModel(input_shape=(288,432,4),classes=9)
-model.load_weights("MLPmusicgen.h5")
+model_path = Path(__file__).parent / "MLPmusicgen.h5"
+model.load_weights(str(model_path))
 
 
 @app.route('/genre_prediction')
