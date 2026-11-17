@@ -2,12 +2,6 @@
 
 ### Building, Managing, and Deploying Applications Using Docker
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker)" />
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.10-blue?logo=python](https://img.shields.io/badge/Python-3.10-blue?logo=python)" />
-&#x20; \<img src="[https://img.shields.io/badge/Docker%20Compose-Orchestration-2496ED?logo=docker](https://img.shields.io/badge/Docker%20Compose-Orchestration-2496ED?logo=docker)" />
-&#x20; \<img src="[https://img.shields.io/badge/Status-Active-success](https://img.shields.io/badge/Status-Active-success)" />
-\</p>
 
 ## Overview
 
